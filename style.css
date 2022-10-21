@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,121,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.user_input_container input{
+    width: 100%;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.user_input_container button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.qr_code_container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.qrdownloader{
+    background: rgb(208, 211, 220);
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
